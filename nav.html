@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+{% load staticfiles %}
+
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="author" content="mainstreetws.com">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DJ Ruck Iowa State's Finest DJ</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="shortcut icon" type="image/png" href="/dj_ruck_logo.png">
+  </head">
+  <div id="holder">
+    <div id="body" class="container-liquid">
+      <div class="container">
+        <div class="navbar navbar-default navbar-fixed-top navbarcolor shadow" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="index.html"><div class="voffset2"><img src="/img/dj_ruck_logo.png"></a></div>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="{% url 'about' %}">ABOUT</a></li>
+                <li><a target="_blank" href="https://soundcloud.com/user-305456659">MIXES</a><li>
+                <li><a target="_blank" href="https://docs.google.com/forms/d/1KY_KVrwyEJfhETkos_4Wa_HPwEW0_wycy2IPJmgDhSw/viewform">EVENTS</a><li>
+              </ul>
+            </div><!-- nav-collapse -->
+          </div><!-- container -->
+        </div><!-- navbar -->
