@@ -9,11 +9,11 @@
 title: DJ Ruck
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    DJ Ruck is the number one DJ in central Iowa.  He can DJ everything from
+    nightclubs, weddings, dances, and sporting events.  Contact him now to
+    schedule an event!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://djruck.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
